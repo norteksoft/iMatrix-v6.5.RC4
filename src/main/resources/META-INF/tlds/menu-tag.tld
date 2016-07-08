@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <description><![CDATA["封装了模块管理的功能标签"]]></description>
+  <display-name>"模块管理功能标签"</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>menu</short-name>
+  <uri>http://www.norteksoft.com/menu/tags</uri>
+  <tag>
+    <description><![CDATA[一级菜单标签]]></description>
+    <name>firstMenu</name>
+    <tag-class>com.norteksoft.tags.menu.MenuTag</tag-class>
+    <body-content>tagdependent</body-content>
+    <attribute>
+      <description><![CDATA[一级菜单前方logo图的位置]]></description>
+      <name>imgSrc</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[显示数量]]></description>
+      <name>showNum</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  <tag>
+    <description><![CDATA[二级菜单标签]]></description>
+    <name>secondMenu</name>
+    <tag-class>com.norteksoft.tags.menu.SecondMenuTag</tag-class>
+    <body-content>tagdependent</body-content>
+    <attribute>
+		<name>code</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+  </tag>
+  <tag>
+    <description><![CDATA[三级菜单标签]]></description>
+    <name>leftMenu</name>
+    <tag-class>com.norteksoft.tags.menu.LeftMenuTag</tag-class>
+    <body-content>tagdependent</body-content>
+  </tag>
+  <tag>
+    <description><![CDATA[一级、二级、左侧菜单标签]]></description>
+    <name>menu</name>
+    <tag-class>com.norteksoft.tags.menu.TotalMenuTag</tag-class>
+    <body-content>tagdependent</body-content>
+    <attribute>
+      <description><![CDATA[一级菜单显示数量]]></description>
+      <name>showNum</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[是否显示换肤
+      Enable Values : true:表示显示换肤|false:表示不显示换肤]]></description>
+      <name>themeChagable</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[是否显示退出
+      Enable Values : true:表示显示退出|false:表示不显示退出]]></description>
+      <name>existable</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[左侧菜单点击时，右侧数据的显示方式，是刷新区域还是刷新整个页面
+      Enable Values : zone:表示刷新区域|totalZone:表示刷新整个页面]]></description>
+      <name>changeType</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[是否显示日期
+      Enable Values : true:表示显示日期|false:表示不显示日期]]></description>
+      <name>dateVisible</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[是否显示修改密码
+      Enable Values : true:表示显示修改密码|false:表示不显示修改密码]]></description>
+      <name>passwordVisible</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[是否显示语言切换
+      Enable Values : true:表示显示语言切换|false:表示不显示语言切换]]></description>
+      <name>languageVisible</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[是否显示问候语
+      Enable Values : true:表示显示问候语|false:表示不显示问候语]]></description>
+      <name>helloVisible</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>

@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	height: 100%;
+	color: #000000;
+}
+
+DIV.block {
+	border: 3px solid #B2D0F7;
+	margin: 25px;
+}
+
+DIV.content {
+	PADDING-RIGHT: 4pt;
+	PADDING-LEFT: 4pt;
+	PADDING-BOTTOM: 4pt;
+	PADDING-TOP: 4pt;
+	MARGIN: 4pt;
+}
+
+DIV.form {
+	PADDING-RIGHT: 4pt;
+	PADDING-LEFT: 15pt;
+	PADDING-BOTTOM: 4pt;
+	PADDING-TOP: 4pt;
+	MARGIN: 4pt;
+}
+
+P {
+	PADDING-RIGHT: 4pt;
+	PADDING-LEFT: 4pt;
+	PADDING-BOTTOM: 4pt;
+	MARGIN: 8pt;
+	PADDING-TOP: 4pt;
+}
+
+P.h1 {
+	font: normal 15px;
+	FONT-WEIGHT: bold;
+	COLOR: black;
+	FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,sans-serif;
+}
+
+P.err {
+	PADDING-RIGHT: 4pt;
+	PADDING-LEFT: 4pt;
+	PADDING-BOTTOM: 4pt;
+	PADDING-TOP: 4pt;
+	MARGIN: 4pt;
+	COLOR: red;
+}
+
+P.content {
+	FONT-FAMILY: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 80%;
+}
+
+P.note {
+	FONT-FAMILY: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 80%;
+	COLOR: red;
+}
+
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	COLOR: #0000aa;
+	FONT-FAMILY: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 100%;
+}
+
+A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	COLOR: #0000aa;
+	FONT-FAMILY: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 100%;
+}
+
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	COLOR: #0000aa;
+	FONT-FAMILY: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 100%;
+}
+
+A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	COLOR: #aa00aa;
+	FONT-FAMILY: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 100%;
+}
+
+.x-grid-hd-row td,.x-grid-row td {
+	font: normal 14px arial, tahoma, helvetica, sans-serif;
+	line-height: 13px;
+	white-space: nowrap;
+	vertical-align: top;
+	-moz-outline: none;
+	-moz-user-focus: normal;
+}
+
+.x-grid-hd-row {
+	height: 22px;
+}
+
+.x-form-item {
+	font:normal 15px tahoma,arial,helvetica,sans-serif;
+	display:block;
+	margin-bottom:4px;
+}
+.x-form-item label{
+	display:block;
+	float:left;
+	width:auto;
+	padding:3px;
+	padding-left:0;
+	clear:left;
+	z-index:2;
+	position:relative;
+}
+
+.x-form-label {
+	font-weight:bold;
+}
+.x-form-element {
+	padding-left:230px;
+	position:relative;
+}
+.x-form-button{
+	PADDING-TOP: 20pt;
+	text-align:right;
+}
+.buttons {
+	background-color: #e8f7f7;
+	font-family: Arial,Helvetica,Tahoma,Verdana,sans-serif;
+	font-size:80%;
+	background: #b8cece;
+	border-bottom: 1px solid #325e5e;
+	border-right: 1px solid #325e5e;
+	border-left: 1px solid #b8cece;
+	border-top:1px solid #b8cece;
+	color:#000000;
+	text-decoration:none;
+	cursor: hand;
+}

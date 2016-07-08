@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info primitiveTypes="element">
+<element name="component">
+	<attribute name="name" property="name" />
+	<attribute name="type" property="type" />
+	<element name="component-param"  property="properties" updater="putProperty" forceAccessible="true" />
+</element>
+</info>

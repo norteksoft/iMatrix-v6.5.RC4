@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info primitiveTypes="element">
+<element name="plugin">
+	<element name="component" property="componentDefs" />
+	<element name="dispatcher" property="dispatcherDefs" />
+	<element name="action-mapping">
+		<element name="action" property="actionDefs" />	
+	</element>
+	<addDefaults/>
+</element>
+</info>

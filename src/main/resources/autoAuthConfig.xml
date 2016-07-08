@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functions>
+		<function path="/acs/index.jsp" ></function>
+		<function path="/acs/log/log!topkOnline.action" ></function>
+		
+		<function path="/acs/common/do-upload.htm" ></function>
+		<function path="/acs/engine/upload-save.htm" ></function>
+		<function path="/acs/common/save-accessory.htm" ></function>
+		<function path="/acs/authorization/role-hasAll.action" ></function>
+		<function path="/acs/organization/department!getDepartmentCodeForBranch.action"></function>
+		<function path="/acs/syssetting/user-findOrg.htm"></function>
+		<function path="/acs/index.jsp"  ></function>
+		<function path="/acs/organization/organization-change-lanague.htm"></function>
+		<function path="/acs/syssetting/integration-showSynUserInfo.htm"></function>
+		
+		<function path="/portal/index/user-validateOldPassword.htm" ></function>
+		<function path="/portal/index/user.htm" ></function>
+		<function path="/portal/index/user!save.htm" ></function>
+		<function path="/portal/index/index-getThemeByUser.htm" ></function>
+		<function path="/portal/index.jsp"  ></function>
+		<function path="/portal/public/public-auto.htm" ></function>
+		<function path="/portal/public/public-info.htm" ></function>
+		<function path="/export-data.action" systemCode="portal"></function>
+		<function path="/wf/engine/addTacheClickByProcessExtendProperty.htm"></function>
+		
+		<function path="/mms/form/getAttachments.htm" ></function>
+		<function path="/mms/form/deleteAttachment.htm" ></function>
+		<function path="/mms/form/downloadAttachment.htm" ></function>
+		<function path="/mms/form/upload-image.htm" ></function>
+		<function path="/mms/form/delete-upload-file.htm" ></function>
+		<function path="/mms/form/download-upload-file.htm" ></function>
+		<function path="/mms/form/getFiles.htm" ></function>
+		<function path="/mms/form/generate-code-system.htm" ></function>
+		<function path="/mms/form/generate-code-dataTable.htm" ></function>
+		<function path="/mms/form/generate-code-generateFile.htm" ></function>
+		<function path="/mms/form/generate-code-postFile.htm" ></function>
+		<function path="/mms/form/validate-company.htm" ></function>
+		<function path="/mms/form/validate-system-menu.htm" ></function>
+		
+		<function path="/mms/page/createhtml-editor.htm" ></function>
+		<function path="/mms/page/createhtml-editor-save.htm" ></function>
+		<function path="/mms/page/download-htmlpage.htm" ></function>
+
+		<!-- struts-plugin.xml中定义的插件 -->
+		<function path="/portal/my-message-error.action" ></function>
+		<function path="/portal/login.action" ></function>
+		<function path="/portal/update-password.action" ></function>
+		<function path="/portal/check-login-password.action" ></function>
+		<function path="/portal/update-old-password.action" ></function>
+		<function path="/portal/check-old-password.action" ></function>
+		<function path="/portal/load-tree.action" ></function>
+		<function path="/portal/autoAuth.action" ></function>
+		<function path="/portal/popTree.action" ></function>
+		<function path="/portal/removeOptionTree.action" ></function>
+		<function path="/portal/custom-tree.action" ></function>
+		<function path="/portal/format.action" ></function>
+		<function path="/portal/common-opinion.action" ></function>
+		<function path="/portal/opinion-control.action" ></function>
+		<function path="/portal/get-data.action" ></function>
+		<function path="/portal/show-data-selection.action" ></function>
+		<function path="/portal/controlType.action" ></function>
+		<function path="/portal/querySetting.action" ></function>
+		<function path="/portal/export-data.action" ></function>
+		<function path="/portal/ztree.action" ></function>
+		<function path="/portal/ztree-pop.action" ></function>
+		<function path="/portal/search-ztree.action" ></function>
+		<function path="/portal/uploadAttachment.action" ></function>
+		<function path="/portal/downloadAttachment.action" ></function>
+		<function path="/portal/singleSearch.action" ></function>
+		<function path="/portal/getSelectNodeValue.action" ></function>
+		<function path="/portal/add-signer.action" ></function>
+		<function path="/portal/show-cut-signer.action" ></function>
+		<function path="/portal/cut-signer.action" ></function>
+		<function path="/portal/assign.action" ></function>
+		<function path="/portal/copy-task.action" ></function>
+		<function path="/portal/assign-transactor.action" ></function>
+		<function path="/portal/retrieve.action" ></function>
+		<function path="/portal/draw-task.action" ></function>
+		<function path="/portal/abandonReceive.action" ></function>
+		<function path="/portal/can-choice-taches.action" ></function>
+		<function path="/portal/select-taches.action" ></function>
+		<function path="/portal/select-activity.action" ></function>
+		<function path="/portal/refreshMenu.action" ></function>
+		<function path="/portal/get-next-task-name.action" ></function>
+		<function path="/portal/go-back-previous-task.action" ></function>
+		<function path="/engine/text-history.action" ></function>
+		
+		<function path="/task/task/task!overtimeTask.htm" ></function>
+		<function path="/task/task/task-personalTasks.htm" ></function>
+		<function path="/task/task/task-taskMsg.htm" ></function>
+		<function path="/task/index.jsp" ></function>
+		<function path="/task/task/task-info.htm" ></function>
+		<function path="/task/task/message-task.htm" ></function>
+		<function path="/task/task/task-type-portal.htm" ></function>
+		<function path="/task/task/task-type-tree-portal.htm" ></function>
+		<function path="/task/task/task-detail-portal.htm" ></function>
+		
+		<function path="/wf/loan/loan-saveAccessory.htm" ></function>
+		<function path="/wf/engine/office-template-upload.htm" ></function>
+		<function path="/wf/engine/office-input.htm" ></function>
+		<function path="/wf/engine/upload-save.htm" ></function>
+		<function path="/wf/index.jsp"  ></function>
+		
+		<function path="/bs/index.jsp"></function>
+		
+		
+		
+		<!--错误页面500,403等 不需要systemCode -->
+		<function path="/portal/exception-handle.action"></function>
+		
+		<!--html5 -->
+		<function path="/wf/engine/wfeditor-workflow-getOptionGroupByCodeUrl.htm" ></function>
+		<function path="/wf/engine/wfeditor-createWfDefinitionById.htm"></function>
+		<function path="/wf/engine/wfeditor-createWfDefinition.htm"></function>
+		<function path="/wf/engine/wfeditor-updateWfDefinitionById.htm"></function>
+		<function path="/wf/engine/wfeditor-updateWfDefinition.htm"></function>
+		
+		<function path="/wf/engine/wfeditor-workflow-wftype.htm"></function>
+		<function path="/wf/engine/wfeditor-workflow-wfformview.htm"></function>
+		<function path="/wf/engine/wfeditor-workflow-system.htm"></function>
+		<function path="/wf/engine/wfeditor-workflow-branch.htm"></function>
+		<function path="/wf/engine/wfeditor-designee-tree-data.htm"></function>
+		<function path="/wf/engine/wfeditor-user-tree-data.htm"></function>
+		<function path="/wf/engine/wfeditor-userstandardvalue-tree-data.htm"></function>
+		<function path="/wf/engine/wfeditor-allFormAndStandardUrl.htm"></function>
+		<function path="/wf/engine/wfeditor-allOrganizationAndStandardUrl.htm"></function>
+		<function path="/wf/engine/wfeditor-allFormFieldUrl.htm"></function>
+		<function path="/wf/engine/wfeditor-workflow-childwf.htm"></function>
+		<function path="/wf/engine/wfeditor-allStandardFieldUrl.htm"></function>
+		<function path="/wf/engine/wfeditor-getXmlByDefinitionId.htm"></function>
+		<function path="/wf/engine/wfeditor-workflow-loadTemplate.htm"></function>
+		<!-- 环节属性-办理人设置-按条件筛选 -->
+		<function path="/wf/engine/wfeditor-user-standardvalue-formfield-tree.htm"></function>
+		<!-- 流向流过的条件标准值下拉框 -->
+		<function path="/wf/engine/wfeditor-transitionFormAndStandardUrl.htm"></function>
+		<!-- 流向流过的条件标准值下拉框 -->
+		<function path="/wf/engine/wfeditor-transitionOrganizationAndStandardUrl.htm"></function>
+		<!-- 登录用户 -->
+		<function path="/wf/engine/wfeditor-getCurrentUserInformation.htm"></function>
+		<!-- 打开XML文件 -->
+		<function path="/wf/engine/wfeditor-openXmlFile.htm"></function>
+		<!--flex -->
+		<function path="/wf/engine/wfeditor-workflow-getFormViewsByCompany.htm"></function>
+		<!--flex-根据表单code和版本查询表单视图  -->
+		<function path="/wf/engine/wfeditor-workflow-getFormViewByCodeAndVersion.htm"></function>
+		<!--flex-根据选项组编码查询选项 -->
+		<function path="/wf/engine/wfeditor-workflow-getOpinionConclusion.htm"></function>
+		<!--flex-根据表单code和版本查询控件列表（按控件在html代码中出现先后排序 -->
+		<function path="/wf/engine/wfeditor-workflow-getControlsByCodeAndVersion.htm"></function>
+		<!--flex-查询companyId公司的所有workflow -->
+		<function path="/wf/engine/wfeditor-workflow-getAllWorkflowType.htm"></function>
+		<!--flex-查询companyId公司的所有workflow类型-->
+		<function path="/wf/engine/wfeditor-workflow-getWorkflowTypeByCode.htm"></function>
+		<!--flex-查询companyId和类型typeId公司的所有workflow类型 -->
+		<function path="/wf/engine/wfeditor-workflow-getWorkflowTypeById.htm"></function>
+		<!--flex-查询公司所有的部门-->
+		<function path="/wf/engine/wfeditor-workflow-getAllDepts.htm"></function>
+		<!--flex-查询公司所有的角色-flex调用 -->
+		<function path="/wf/engine/wfeditor-workflow-getAllRoles.htm"></function>
+		<!--flex-查询总公司下的分支机构，不包括分支机构的-flex调用-->
+		<function path="/wf/engine/wfeditor-workflow-getWorkgroups.htm"></function>
+		<!--flex-根据部门名称查询该部门的所有子部门-->
+		<function path="/wf/engine/wfeditor-workflow-getSubDeptsByParentDept.htm"></function>
+		<!--flex-查询没有在任何部门的用户-flex调用-->
+		<function path="/wf/engine/wfeditor-workflow-getUsersNotInDept.htm"></function>
+		<!--flex-查询所有业务系统信息-flex调用-->
+		<function path="/wf/engine/wfeditor-workflow-getAllBusiness.htm"></function>
+		<!--flex-查询所有分支机构-flex调用-->
+		<function path="/wf/engine/wfeditor-workflow-getAllBranch.htm"></function>
+		<!--flex-当前租户是否存在分支机构-flex调用-->
+		<function path="/wf/engine/wfeditor-workflow-hasBranch.htm"></function>
+		<!--flex-查询部门下所有的人员-flex调用-->
+		<function path="/wf/engine/wfeditor-workflow-getUsersByDept.htm"></function>
+		<!--flex-查询没有在任何部门的用户-->
+		<function path="/wf/engine/wfeditor-workflow-getBranchUsersNotInDept.htm"></function>
+		<!--flex-查询该分支机构内的工作组-->
+		<function path="/wf/engine/wfeditor-workflow-getWorkgroupByBranchCode.htm"></function>
+		
+		<!-- html5工作流另存为XML --> 
+		<function path="/portal/wfeditor-workflow-saveAs.action"></function>
+
+		<!-- 将通信方式改为HttpService方式 -->
+		<!-- 超期人监控/移交任务数事件 -->
+		<function path="/wf/engine/wfeditor-workflow-getWfDefinition.htm"></function>
+		<!-- 查询所有活动的流程 -->
+		<function path="/wf/engine/wfeditor-workflow-getActiveDefinition.htm"></function>
+		<!-- 查询正文模板列表 -->
+		<function path="/wf/engine/wfeditor-workflow-getTemplateByType.htm"></function>
+		<!-- 查询模版的xml -->
+		<function path="/wf/engine/wfeditor-workflow-getTemplateXml.htm"></function>
+		<!-- 根据流程实例ID查询历史记录 -->
+		<function path="/wf/engine/wfeditor-workflow-getHistoryByInstanceId.htm"></function>
+		<!-- 查询当前环节 -->
+		<function path="/wf/engine/wfeditor-workflow-getCurrentTasks.htm"></function>
+		<!-- 根据流程实例ID查询流程定义文件 -->
+		<function path="/wf/engine/wfeditor-workflow-getXmlByInstanceId.htm"></function>
+		<!-- 根据父流程的workflowId和环节名获得它的子流程实例 -->
+		<function path="/wf/engine/wfeditor-workflow-getSubProcessInstanceByTaskName.htm"></function>
+		<!-- 通过流程定义的Key查询WorkflowDefinition -->
+		<function path="/wf/engine/wfeditor-workflow-getWorkflowDefinitionByProcessId.htm"></function>
+		<!-- 修改流程定义,且及时生效 -->
+		<function path="/wf/engine/wfeditor-workflow-updateWfDefVersion.htm"></function>
+		<!-- 创建流程定义 -->
+		<function path="/wf/engine/wfeditor-workflow-createWfDefinition.htm"></function>
+		<!-- 创建流程定义,用于兼容老版本流程图 -->
+		<function path="/wf/engine/wfeditor-workflow-createWfDefinitionById.htm"></function>
+		<!-- 修改流程定义 -->
+		<function path="/wf/engine/wfeditor-workflow-updateWfDefinition.htm"></function>
+		<!-- 修改流程定义,用于兼容老版本流程图 -->
+		<function path="/wf/engine/wfeditor-workflow-updateWfDefinitionById.htm"></function>
+
+</functions>

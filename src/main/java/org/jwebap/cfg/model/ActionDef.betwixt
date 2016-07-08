@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info primitiveTypes="element">
+<element name="action">
+	<attribute name="path" property="path" />
+	<attribute name="component" property="component" />
+	<attribute name="type" property="type" />
+	<attribute name="template" property="template" />
+</element>
+</info>

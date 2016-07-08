@@ -1,0 +1,72 @@
+<jwebap>
+<component name="JdbcComponent" type="org.jwebap.plugin.tracer.jdbc.JdbcComponent">
+<component-param style="longtext">
+<description>Connection Listener</description>
+<name>connection-listener</name>
+<value>			org.jwebap.plugin.tracer.http.ServletOpenedConnectionListener;org.jwebap.plugin.tracer.method.MethodOpenedConnectionListener
+			</value>
+</component-param>
+<component-param style="text">
+<description>max over-time trace size</description>
+<name>trace-max-size</name>
+<value>3</value>
+</component-param>
+<component-param style="text">
+<description>(ms) timings filter's over time</description>
+<name>trace-filter-active-time</name>
+<value>100</value>
+</component-param>
+<component-param style="longtext">
+<description>
+			1)Local datasource: set your ConnectionManagerClass,or the connection pool 's datasource. If you have more than one class ,divided by ';'.
+												c3p0:com.mchange.v2.c3p0.ComboPooledDataSource; 
+												dbcp: org.apache.commons.dbcp.BasicDataSource
+												Also,other class. Jwebap will inject driver-clazzs,and detect any connection and datasource object it's method renturn.
+												Note:  'driver-clazzs =jdbc driver' is deprecated. Beacause of connection pool, set 'driver-clazzs =jdbc driver', jwebap will find out all connection is leaked.
+			2)JNDI datasource: If your application uses jndi datasource, you can set the class which manages connections in your application as driver, e.g.: 'com.china.telecom.ConnectionManager'. Else if you use spring to get jndi datasource ,you also can set driver-clazzs=org.springframework.jndi.JndiObjectFactoryBean.JdbcComponent will inject this class to proxy all connection the class's method return.
+
+			</description>
+<name>driver-clazzs</name>
+<value>org.apache.commons.dbcp.BasicDataSource</value>
+</component-param>
+</component>
+<component name="MethodComponent" type="org.jwebap.plugin.tracer.method.MethodComponent">
+<component-param style="text">
+<description>max over-time trace size</description>
+<name>trace-max-size</name>
+<value>3</value>
+</component-param>
+<component-param style="text">
+<description>(ms) timings filter's over time</description>
+<name>trace-filter-active-time</name>
+<value>100</value>
+</component-param>
+</component>
+<component name="HttpComponent" type="org.jwebap.plugin.tracer.http.HttpComponent">
+<component-param style="text">
+<description>max over-time trace size</description>
+<name>trace-max-size</name>
+<value>3</value>
+</component-param>
+<component-param style="text">
+<description>(ms) timings filter's over time</description>
+<name>trace-filter-active-time</name>
+<value>100</value>
+</component-param>
+</component>
+<dispatcher name="RedirectDispatcher" mapping="" type="org.jwebap.ui.controler.DefaultRedirectDispatcher"/>
+<dispatcher name="ActionDispatcher" mapping="/console/*" type="org.jwebap.ui.controler.ActionDispatcher"/>
+<dispatcher name="ResourceDispatcher" mapping="/resources/*" type="org.jwebap.ui.controler.ResourceDispatcher"/>
+<action-mapping>
+<action path="/" component="" type="org.jwebap.ui.action.EmptyAction" template="resources/view/index.ctl"/>
+<action path="/deploy/plugins" component="" type="org.jwebap.ui.action.EmptyAction" template="resources/view/plugin_deploy.ctl"/>
+<action path="/deploy/plugins/list" component="" type="org.jwebap.ui.action.PluginListAction" template=""/>
+<action path="/deploy/plugins/remove" component="" type="org.jwebap.ui.action.PluginRemoveAction" template=""/>
+<action path="/deploy/plugins/new" component="" type="org.jwebap.ui.action.PluginFormAction" template="resources/view/plugin_deploy_new.ctl"/>
+<action path="/deploy/plugins/add" component="" type="org.jwebap.ui.action.PluginAddAction" template=""/>
+<action path="/deploy/plugins/detail" component="" type="org.jwebap.ui.action.EmptyAction" template="resources/view/plugin_detail.ctl"/>
+<action path="/deploy/plugins/components/list" component="" type="org.jwebap.ui.action.ComponentListAction" template=""/>
+<action path="/deploy/plugins/components/detail" component="" type="org.jwebap.ui.action.ComponentFormAction" template="resources/view/component_detail.ctl"/>
+<action path="/deploy/plugins/components/save" component="" type="org.jwebap.ui.action.ComponentSaveAction" template=""/>
+</action-mapping>
+</jwebap>

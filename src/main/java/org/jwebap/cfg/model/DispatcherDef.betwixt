@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info primitiveTypes="element">
+<element name="dispatcher">
+	<attribute name="name" property="name" />
+	<attribute name="mapping" property="mapping" />
+	<attribute name="type" property="type" />
+</element>
+</info>

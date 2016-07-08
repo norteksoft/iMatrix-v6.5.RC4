@@ -1,0 +1,10 @@
+var portal_lang={'messageOpenTitle':'Personal message manage',
+				  'baseSettingTitle':'Personal setting',
+				  'registerWidgetTitle':'Register widget',
+				  'addWidgetTitle':'Add portlets',
+				  'addThemeTitle':'Add theme',
+				  'addWebPageTitle':'Add page',
+				  'updateWebPageTitle':'Update page',
+				  'delPageTip':'Are you sure delete this page?',
+				  'freshWidgetTip':'Sorry,dynamic fresh widget error!',
+				  'noWidgetParameterTip':'This widget no parameter'};
